@@ -35,7 +35,7 @@
   "useDataview": true,
   "useDatacore": false,
   "useExcalidraw": false,
-  "useFantasyStatblocks": false,
+  "useFantasyStatblocks": true,
   "manageSyncerStyles": true,
   "useThemes": false,
   "lastUsedSettingsTab": "git",

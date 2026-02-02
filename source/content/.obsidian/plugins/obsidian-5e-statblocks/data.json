@@ -1,0 +1,948 @@
+{
+  "monsters": [
+    [
+      "Piercer",
+      {
+        "image": null,
+        "name": "Piercer",
+        "source": "Monster Manual",
+        "type": "monstrosity",
+        "subtype": "",
+        "size": "medium",
+        "alignment": "unaligned",
+        "hp": 22,
+        "hit_dice": "22 (3d8 + 9)",
+        "ac": "15 (natural armor)",
+        "speed": "5 ft., climb 5 ft.",
+        "stats": [
+          10,
+          13,
+          16,
+          1,
+          7,
+          3
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "",
+        "saves": [],
+        "skillsaves": [
+          {
+            "stealth": 5
+          }
+        ],
+        "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 8",
+        "languages": "&mdash;",
+        "cr": "1/2",
+        "traits": [
+          {
+            "name": "False Appearance",
+            "desc": "While the Piercer remains motionless on the ceiling, it is indistinguishable from a normal stalactite."
+          },
+          {
+            "name": "Spider Climb",
+            "desc": "The Piercer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Drop",
+            "desc": "Melee Weapon Attack: +3 to hit, one target directly underneath the piercer. Hit: 3 (1d6) piercing damage per 10 feet fallen, up to 21 (6d6). Miss: The Piercer takes half the normal falling damage for the distance fallen."
+          }
+        ],
+        "legendary_description": null,
+        "legendary_actions": null,
+        "mythic_description": null,
+        "mythic_actions": null,
+        "lair_description": null,
+        "lair_actions": null,
+        "lair_description_end": null,
+        "regional_description": null,
+        "regional_actions": null,
+        "regional_description_end": null
+      }
+    ],
+    [
+      "Squinky the Scout",
+      {
+        "name": "Squinky the Scout",
+        "source": "Fireside Folktales",
+        "size": "small",
+        "type": "humanoid",
+        "subtype": "Rock Gnome",
+        "alignment": "chaotic good",
+        "ac": 13,
+        "hp": 13,
+        "hit_dice": "3d6 + 3",
+        "speed": "25 ft.",
+        "stats": [
+          11,
+          14,
+          12,
+          16,
+          13,
+          8
+        ],
+        "skillsaves": [
+          {
+            "nature": 4
+          },
+          {
+            "perception": 5
+          },
+          {
+            "stealth": 6
+          },
+          {
+            "survival": 5
+          }
+        ],
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "",
+        "condition_immunities": "",
+        "senses": "darkvision 60 ft., passive Perception 15",
+        "languages": "Common, Gnomish",
+        "cr": "1/2",
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "Keen Sight",
+            "desc": "Squinky has advantage on Wisdom (Perception) checks that rely on sight.",
+            "attack_bonus": 0
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Squinky makes two melee attacks or two ranged attacks.",
+            "attack_bonus": 0
+          },
+          {
+            "name": "Shortsword",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+            "attack_bonus": 4,
+            "damage_dice": "1d6",
+            "damage_bonus": 2
+          },
+          {
+            "name": "Longbow",
+            "desc": "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+            "attack_bonus": 4,
+            "damage_dice": "1d8",
+            "damage_bonus": 2
+          }
+        ]
+      }
+    ],
+    [
+      "Goblin Warrior",
+      {
+        "name": "Goblin Warrior",
+        "source": "Fireside Folktales",
+        "size": "Small",
+        "type": "humanoid",
+        "subtype": "goblinoid",
+        "alignment": "neutral evil",
+        "ac": "15 (leather armor, shield)",
+        "hp": 7,
+        "hit_dice": "2d6",
+        "speed": "30 ft.",
+        "stats": [
+          8,
+          14,
+          10,
+          10,
+          8,
+          8
+        ],
+        "skillsaves": [
+          {
+            "stealth": 6
+          }
+        ],
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "",
+        "condition_immunities": "",
+        "senses": "darkvision 60 ft., passive Perception 9",
+        "languages": "Common, Goblin",
+        "cr": "1/4",
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "Cruel",
+            "desc": "The goblin deals an additional 2 (1d4) damage when it hits an attack with advantage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Scimitar",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+            "attack_bonus": 4,
+            "damage_dice": "1d6",
+            "damage_bonus": 2
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Nimble Escape",
+            "desc": "The goblin takes the Disengage or Hide action.",
+            "attack_bonus": 0
+          }
+        ]
+      }
+    ],
+    [
+      "Goblin Archer",
+      {
+        "name": "Goblin Archer",
+        "source": "Fireside Folktales",
+        "size": "Small",
+        "type": "humanoid",
+        "subtype": "goblinoid",
+        "alignment": "neutral evil",
+        "ac": "13 (leather armor)",
+        "hp": 7,
+        "hit_dice": "2d6",
+        "speed": "30 ft.",
+        "stats": [
+          8,
+          14,
+          10,
+          10,
+          8,
+          8
+        ],
+        "skillsaves": [
+          {
+            "stealth": 6
+          }
+        ],
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "",
+        "condition_immunities": "",
+        "senses": "darkvision 60 ft., passive Perception 9",
+        "languages": "Common, Goblin",
+        "cr": "1/4",
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "Cruel",
+            "desc": "The goblin deals an additional 2 (1d4) damage when it hits an attack with advantage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Shortbow",
+            "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+            "attack_bonus": 4,
+            "damage_dice": "1d6",
+            "damage_bonus": 2
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Nimble Escape",
+            "desc": "The goblin takes the Disengage or Hide action.",
+            "attack_bonus": 0
+          }
+        ]
+      }
+    ],
+    [
+      "Goblin Thug",
+      {
+        "name": "Goblin Thug",
+        "source": "Fireside Folktales",
+        "size": "Small",
+        "type": "humanoid",
+        "subtype": "goblinoid",
+        "alignment": "neutral evil",
+        "ac": "10 (leather armor)",
+        "hp": 17,
+        "hit_dice": "5d6",
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          8,
+          10,
+          10,
+          8,
+          8
+        ],
+        "skillsaves": [
+          {
+            "intimidation": 1
+          },
+          {
+            "stealth": 3
+          }
+        ],
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "",
+        "condition_immunities": "",
+        "senses": "darkvision 60 ft., passive Perception 9",
+        "languages": "Common, Goblin",
+        "cr": "1/2",
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "Cruel",
+            "desc": "The goblin deals an additional 2 (1d4) damage when it hits an attack with advantage."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The goblin has advantage on an attack roll against a creature if at least one of the goblin's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The goblin makes two melee attacks."
+          },
+          {
+            "name": "Mace",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
+            "attack_bonus": 4,
+            "damage_dice": "1d6",
+            "damage_bonus": 2
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Nimble Escape",
+            "desc": "The goblin takes the Disengage or Hide action.",
+            "attack_bonus": 0
+          }
+        ]
+      }
+    ],
+    [
+      "Goblin Boss",
+      {
+        "image": null,
+        "name": "Goblin Boss",
+        "source": "Fireside Folktales",
+        "type": "humanoid",
+        "subtype": "goblinoid",
+        "size": "small",
+        "alignment": "neutral evil",
+        "hp": 7,
+        "hit_dice": "2d6",
+        "ac": "17 (chain shirt, shield)",
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          14,
+          10,
+          10,
+          8,
+          10
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "",
+        "saves": [],
+        "skillsaves": [
+          {
+            "stealth": 6
+          }
+        ],
+        "senses": "darkvision 60 ft., passive Perception 9",
+        "languages": "Goblin",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Cruel",
+            "desc": "The goblin deals an additional 2 (1d4) damage when it hits an attack with advantage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The goblin makes two attacks with its scimitar. The second attack has disadvantage."
+          },
+          {
+            "name": "Scimitar",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+          },
+          {
+            "name": "Javelin",
+            "desc": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Nimble Escape",
+            "desc": "The goblin takes the Disengage or Hide action."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Redirect Attack",
+            "desc": "When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead."
+          }
+        ],
+        "legendary_description": null,
+        "legendary_actions": null,
+        "mythic_description": null,
+        "mythic_actions": null,
+        "lair_description": null,
+        "lair_actions": null,
+        "lair_description_end": null,
+        "regional_description": null,
+        "regional_actions": null,
+        "regional_description_end": null
+      }
+    ],
+    [
+      "Scarecrow",
+      {
+        "name": "Scarecrow",
+        "source": "Fireside Folktales",
+        "size": "Medium",
+        "type": "construct",
+        "subtype": null,
+        "alignment": "chaotic evil",
+        "ac": 11,
+        "hp": 36,
+        "hit_dice": "8d8",
+        "speed": "30 ft.",
+        "stats": [
+          11,
+          13,
+          11,
+          10,
+          10,
+          13
+        ],
+        "skillsaves": null,
+        "damage_vulnerabilities": "fire",
+        "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+        "damage_immunities": "poison",
+        "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned, unconscious",
+        "senses": "darkvision 60 ft., passive Perception 10",
+        "languages": "understands the languages of its creator but can't speak",
+        "cr": 1,
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "False Appearance",
+            "desc": "While the scarecrow remains motionless, it is indistinguishable from an ordinary, inanimate scarecrow."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. _Hit:_ 6 (2d4 + 1) slashing damage. If the target is a creature, it must succeed on a DC 11 Wisdom saving throw or be frightened until the end of the scarecrow's next turn.",
+            "attack_bonus": 3,
+            "damage_dice": "2d4",
+            "damage_bonus": 1
+          },
+          {
+            "name": "Terrifying Glare",
+            "desc": "The scarecrow targets one creature it can see within 30 feet of it. If the target can see the scarecrow, the target must succeed on a DC 11 Wisdom saving throw or be magically frightened until the end of the scarecrow's next turn. The frightened target is paralyzed."
+          }
+        ]
+      }
+    ],
+    [
+      "Water Weird",
+      {
+        "image": null,
+        "name": "Water Weird",
+        "source": "Monster Manual",
+        "type": "Elemental",
+        "size": "large",
+        "alignment": "neutral",
+        "hp": 58,
+        "hit_dice": "9d10",
+        "ac": "",
+        "speed": "0 ft., swim 60 ft.",
+        "stats": [
+          17,
+          16,
+          13,
+          11,
+          10,
+          10
+        ],
+        "damage_immunities": "poison",
+        "damage_resistances": "fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious",
+        "senses": "blindsight 30 ft., passive Perception 10",
+        "languages": "understands Aquan but doesn't speak",
+        "cr": "3",
+        "traits": [
+          {
+            "name": "Invisible in Water",
+            "desc": "The water weird is invisible while fully immersed in water."
+          },
+          {
+            "name": "Water Bound",
+            "desc": "The water weird dies if it leaves the water to which it is bound or if that water is destroyed."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Constrict",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 13 (3d6 + 3) bludgeoning damage, and the target is grappled (escape DC 13) and pulled 5 feet toward the water weird. Until this grapple ends, the creature is restrained, the water weird tries to drown it, and the water weird can't constrict another target."
+          }
+        ]
+      }
+    ]
+  ],
+  "defaultLayouts": {},
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "type": "inline",
+          "id": "dacb6afaaa59",
+          "properties": [],
+          "hasRule": true,
+          "nested": [
+            {
+              "type": "group",
+              "id": "792a5879087a",
+              "properties": [
+                "name",
+                "size",
+                "type",
+                "subtype",
+                "alignment"
+              ],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "8b898ac8ba09",
+                  "properties": [],
+                  "hasRule": false,
+                  "nested": [
+                    {
+                      "type": "heading",
+                      "id": "a82a6aeb5898",
+                      "properties": [
+                        "name"
+                      ],
+                      "conditioned": true,
+                      "size": 1
+                    },
+                    {
+                      "type": "inline",
+                      "id": "68e8c8ba382b",
+                      "properties": [],
+                      "hasRule": false,
+                      "nested": [
+                        {
+                          "type": "action",
+                          "id": "a8da98ba8ba9",
+                          "icon": "sword",
+                          "callback": "try { InitiativeTracker.newEncounter({roll: true, creatures: [monster]}); } catch(e) {}"
+                        },
+                        {
+                          "type": "action",
+                          "id": "9818b8a8cbdb",
+                          "icon": "plus-with-circle",
+                          "callback": "try { InitiativeTracker.addCreatures([monster]); } catch(e) {}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "subheading",
+                  "id": "5aa88af9f988",
+                  "properties": [
+                    "size",
+                    "type",
+                    "subtype",
+                    "alignment"
+                  ],
+                  "conditioned": true,
+                  "separator": ", "
+                }
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "image",
+              "id": "c9982948299b",
+              "properties": [
+                "image"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "8ad869f9788b",
+          "properties": [
+            "ac",
+            "hp",
+            "speed"
+          ],
+          "nested": [
+            {
+              "type": "property",
+              "id": "0bcad9081a58",
+              "properties": [
+                "ac"
+              ],
+              "display": "Armor Class",
+              "conditioned": true,
+              "callback": "const ac = [monster.ac];if (\"ac_class\" in monster) {ac.push(`(${monster.ac_class})`);}return ac.join(\" \");"
+            },
+            {
+              "type": "property",
+              "id": "2adacada582a",
+              "properties": [
+                "hp"
+              ],
+              "display": "Hit Points",
+              "dice": true,
+              "diceProperty": "hit_dice",
+              "diceCallback": "if (\"hit_dice\" in monster) {\n  return [{ text: monster[\"hit_dice\"] }];\n} else {\n  return property;\n}",
+              "callback": "let str = [monster.hp];\nif (monster.hit_dice?.length) {\n  str.push(`(${monster.hit_dice})`);\n}\nreturn str.join(\" \");",
+              "conditioned": true,
+              "hasRule": true
+            },
+            {
+              "type": "property",
+              "id": "a9f8d97bfae8",
+              "display": "Speed",
+              "properties": [
+                "speed"
+              ],
+              "conditioned": true
+            }
+          ],
+          "hasRule": true,
+          "conditioned": true
+        },
+        {
+          "type": "table",
+          "id": "9b8aea38caab",
+          "properties": [
+            "stats"
+          ],
+          "headers": [
+            "Str",
+            "Dex",
+            "Con",
+            "Int",
+            "Wis",
+            "Cha"
+          ],
+          "calculate": true,
+          "hasRule": true,
+          "conditioned": true
+        },
+        {
+          "type": "table",
+          "id": "494ae94b0a68",
+          "properties": [
+            "fage_stats"
+          ],
+          "headers": [
+            "Accuracy",
+            "Communication",
+            "Constitution",
+            "Dexterity",
+            "Fighting",
+            "Intelligence",
+            "Perception",
+            "Strength",
+            "Willpower"
+          ],
+          "calculate": false,
+          "hasRule": true,
+          "conditioned": true
+        },
+        {
+          "type": "group",
+          "id": "5b89b84a389b",
+          "properties": [
+            "saves",
+            "skillsaves",
+            "damage_immunities",
+            "damage_resistances",
+            "damage_vulnerabilities",
+            "condition_immunities",
+            "cr",
+            "languages",
+            "senses"
+          ],
+          "nested": [
+            {
+              "type": "saves",
+              "id": "49db5ac97be8",
+              "display": "Saves",
+              "properties": [
+                "saves"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "saves",
+              "id": "5a9bbb1baaab",
+              "display": "Skills",
+              "properties": [
+                "skillsaves"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "282b9a49ea39",
+              "display": "Damage Resistances",
+              "properties": [
+                "damage_resistances"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "a9489aebd94b",
+              "display": "Damage Immunities",
+              "properties": [
+                "damage_immunities"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "48996b9888da",
+              "display": "Condition Immunities",
+              "properties": [
+                "condition_immunities"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "69b8c9b8e8b9",
+              "display": "Damage Vulnerabilities",
+              "properties": [
+                "damage_vulnerabilities"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "dadaa9a838c8",
+              "display": "Senses",
+              "properties": [
+                "senses"
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "e98a89990bd9",
+              "display": "Languages",
+              "properties": [
+                "languages"
+              ],
+              "fallback": "-"
+            },
+            {
+              "type": "inline",
+              "id": "095859a88bfa",
+              "properties": [],
+              "conditioned": true,
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "38387a395a6a",
+                  "display": "Challenge",
+                  "properties": [
+                    "cr"
+                  ],
+                  "callback": "const CR = {\n    \"0\": {\n        cr: \"0\",\n        value: 0,\n        xp: 10\n    },\n    \"1/8\": {\n        cr: \"1/8\",\n        value: 0.125,\n        xp: 25\n    },\n    \"1/4\": {\n        cr: \"1/4\",\n\n        value: 0.25,\n        xp: 50\n    },\n    \"1/2\": {\n        cr: \"1/2\",\n        value: 0.5,\n        xp: 100\n    },\n    \"0.125\": {\n        cr: \"1/8\",\n        value: 0.125,\n        xp: 25\n    },\n    \"0.25\": {\n        cr: \"1/4\",\n\n        value: 0.25,\n        xp: 50\n    },\n    \"0.5\": {\n        cr: \"1/2\",\n        value: 0.5,\n        xp: 100\n    },\n    \"1\": {\n        cr: \"1\",\n        value: 1,\n        xp: 200\n    },\n    \"2\": {\n        cr: \"2\",\n        value: 2,\n        xp: 450\n    },\n    \"3\": {\n        cr: \"3\",\n        value: 3,\n        xp: 700\n    },\n    \"4\": {\n        cr: \"4\",\n        value: 4,\n        xp: 1100\n    },\n    \"5\": {\n        cr: \"5\",\n        value: 5,\n        xp: 1800\n    },\n    \"6\": {\n        cr: \"6\",\n        value: 6,\n        xp: 2300\n    },\n    \"7\": {\n        cr: \"7\",\n        value: 7,\n        xp: 2900\n    },\n    \"8\": {\n        cr: \"8\",\n        value: 8,\n        xp: 3900\n    },\n    \"9\": {\n        cr: \"9\",\n        value: 9,\n        xp: 5000\n    },\n    \"10\": {\n        cr: \"10\",\n        value: 10,\n        xp: 5900\n    },\n    \"11\": {\n        cr: \"11\",\n        value: 11,\n        xp: 7200\n    },\n    \"12\": {\n        cr: \"12\",\n        value: 12,\n        xp: 8400\n    },\n    \"13\": {\n        cr: \"13\",\n        value: 13,\n        xp: 10000\n    },\n    \"14\": {\n        cr: \"14\",\n        value: 14,\n        xp: 11500\n    },\n    \"15\": {\n        cr: \"15\",\n        value: 15,\n        xp: 13000\n    },\n    \"16\": {\n        cr: \"16\",\n        value: 16,\n        xp: 15000\n    },\n    \"17\": {\n        cr: \"17\",\n        value: 17,\n        xp: 18000\n    },\n    \"18\": {\n        cr: \"18\",\n        value: 18,\n        xp: 20000\n    },\n    \"19\": {\n        cr: \"19\",\n        value: 19,\n        xp: 22000\n    },\n    \"20\": {\n        cr: \"20\",\n        value: 20,\n        xp: 25000\n    },\n    \"21\": {\n        cr: \"21\",\n        value: 21,\n        xp: 33000\n    },\n    \"22\": {\n        cr: \"22\",\n        value: 22,\n        xp: 41000\n    },\n    \"23\": {\n        cr: \"23\",\n        value: 23,\n        xp: 50000\n    },\n    \"24\": {\n        cr: \"24\",\n        value: 24,\n        xp: 62000\n    },\n    \"25\": {\n        cr: \"25\",\n        value: 25,\n        xp: 75000\n    },\n    \"26\": {\n        cr: \"26\",\n        value: 26,\n        xp: 90000\n    },\n    \"27\": {\n        cr: \"27\",\n        value: 27,\n        xp: 105000\n    },\n    \"28\": {\n        cr: \"28\",\n        value: 28,\n        xp: 120000\n    },\n    \"29\": {\n        cr: \"29\",\n        value: 29,\n        xp: 135000\n    },\n    \"30\": {\n        cr: \"30\",\n        value: 30,\n        xp: 155000\n    }\n};                        \nif (\"cr\" in monster && monster.cr in CR) {\n    return `${CR[\n        monster.cr\n    ].cr} (${CR[\n        monster.cr\n    ].xp.toLocaleString()} XP)`;\n}\nreturn \"\";"
+                },
+                {
+                  "type": "property",
+                  "id": "083a28c9a808",
+                  "display": "Proficiency Bonus",
+                  "properties": [
+                    "cr"
+                  ],
+                  "callback": "const CR = {\n    \"0\": {\n        cr: \"0\",\n        value: 0,\n        xp: 0\n    },\n    \"1/8\": {\n        cr: \"1/8\",\n        value: 0.125,\n        xp: 25\n    },\n    \"1/4\": {\n        cr: \"1/4\",\n\n        value: 0.25,\n        xp: 50\n    },\n    \"1/2\": {\n        cr: \"1/2\",\n        value: 0.5,\n        xp: 100\n    },\n    \"0.125\": {\n        cr: \"1/8\",\n        value: 0.125,\n        xp: 25\n    },\n    \"0.25\": {\n        cr: \"1/4\",\n\n        value: 0.25,\n        xp: 50\n    },\n    \"0.5\": {\n        cr: \"1/2\",\n        value: 0.5,\n        xp: 100\n    },\n    \"1\": {\n        cr: \"1\",\n        value: 1,\n        xp: 200\n    },\n    \"2\": {\n        cr: \"2\",\n        value: 2,\n        xp: 450\n    },\n    \"3\": {\n        cr: \"3\",\n        value: 3,\n        xp: 700\n    },\n    \"4\": {\n        cr: \"4\",\n        value: 4,\n        xp: 1100\n    },\n    \"5\": {\n        cr: \"5\",\n        value: 5,\n        xp: 1800\n    },\n    \"6\": {\n        cr: \"6\",\n        value: 6,\n        xp: 2300\n    },\n    \"7\": {\n        cr: \"7\",\n        value: 7,\n        xp: 2900\n    },\n    \"8\": {\n        cr: \"8\",\n        value: 8,\n        xp: 3900\n    },\n    \"9\": {\n        cr: \"9\",\n        value: 9,\n        xp: 5000\n    },\n    \"10\": {\n        cr: \"10\",\n        value: 10,\n        xp: 5900\n    },\n    \"11\": {\n        cr: \"11\",\n        value: 11,\n        xp: 7200\n    },\n    \"12\": {\n        cr: \"12\",\n        value: 12,\n        xp: 8400\n    },\n    \"13\": {\n        cr: \"13\",\n        value: 13,\n        xp: 10000\n    },\n    \"14\": {\n        cr: \"14\",\n        value: 14,\n        xp: 11500\n    },\n    \"15\": {\n        cr: \"15\",\n        value: 15,\n        xp: 13000\n    },\n    \"16\": {\n        cr: \"16\",\n        value: 16,\n        xp: 15000\n    },\n    \"17\": {\n        cr: \"17\",\n        value: 17,\n        xp: 18000\n    },\n    \"18\": {\n        cr: \"18\",\n        value: 18,\n        xp: 20000\n    },\n    \"19\": {\n        cr: \"19\",\n        value: 19,\n        xp: 22000\n    },\n    \"20\": {\n        cr: \"20\",\n        value: 20,\n        xp: 25000\n    },\n    \"21\": {\n        cr: \"21\",\n        value: 21,\n        xp: 33000\n    },\n    \"22\": {\n        cr: \"22\",\n        value: 22,\n        xp: 41000\n    },\n    \"23\": {\n        cr: \"23\",\n        value: 23,\n        xp: 50000\n    },\n    \"24\": {\n        cr: \"24\",\n        value: 24,\n        xp: 62000\n    },\n    \"25\": {\n        cr: \"25\",\n        value: 25,\n        xp: 75000\n    },\n    \"26\": {\n        cr: \"26\",\n        value: 26,\n        xp: 90000\n    },\n    \"27\": {\n        cr: \"27\",\n        value: 27,\n        xp: 105000\n    },\n    \"28\": {\n        cr: \"28\",\n        value: 28,\n        xp: 120000\n    },\n    \"29\": {\n        cr: \"29\",\n        value: 29,\n        xp: 135000\n    },\n    \"30\": {\n        cr: \"30\",\n        value: 30,\n        xp: 155000\n    }\n};           \nif (\"cr\" in monster && monster.cr in CR) {\n    return `+${Math.max(\n            Math.floor(2 + ((CR[monster.cr]?.value ?? 0) - 1) / 4),\n            2\n        )}`;\n}\nreturn \"\";"
+                }
+              ]
+            }
+          ],
+          "conditioned": true,
+          "hasRule": true
+        },
+        {
+          "type": "traits",
+          "id": "781b59086aab",
+          "properties": [
+            "traits"
+          ],
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "spells",
+          "id": "c8c9e90b1808",
+          "properties": [
+            "spells"
+          ],
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "text",
+          "id": "7a0ad94918da",
+          "properties": [
+            "spellsNotes"
+          ],
+          "conditioned": true,
+          "text": null
+        },
+        {
+          "type": "traits",
+          "id": "087ab8197a4b",
+          "properties": [
+            "actions"
+          ],
+          "heading": "Actions",
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "traits",
+          "id": "d83a19088bca",
+          "properties": [
+            "bonus_actions"
+          ],
+          "heading": "Bonus Actions",
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "group",
+          "id": "a80bcb1b294a",
+          "properties": [
+            "legendary_description",
+            "legendary_actions"
+          ],
+          "heading": "Legendary Actions",
+          "nested": [
+            {
+              "type": "text",
+              "id": "982a8a8b8a1a",
+              "properties": [
+                "legendary_description"
+              ],
+              "conditioned": true,
+              "text": null
+            },
+            {
+              "type": "traits",
+              "id": "798b891b8829",
+              "properties": [
+                "legendary_actions"
+              ],
+              "conditioned": true,
+              "dice": true
+            }
+          ],
+          "conditioned": true
+        },
+        {
+          "type": "group",
+          "id": "c8fb4a7b7949",
+          "properties": [
+            "mythic_description",
+            "mythic_actions"
+          ],
+          "heading": "Mythic Actions",
+          "nested": [
+            {
+              "type": "text",
+              "id": "18c988e81899",
+              "properties": [
+                "mythic_description"
+              ],
+              "conditioned": true,
+              "text": null
+            },
+            {
+              "type": "traits",
+              "id": "68380aea4b49",
+              "properties": [
+                "mythic_actions"
+              ],
+              "conditioned": true,
+              "dice": true
+            }
+          ],
+          "conditioned": true
+        },
+        {
+          "type": "traits",
+          "id": "7b6aea2a189a",
+          "properties": [
+            "reactions"
+          ],
+          "heading": "Reactions",
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "traits",
+          "id": "799aa9bbcaea",
+          "properties": [
+            "lair_actions"
+          ],
+          "heading": "Lair Actions",
+          "conditioned": true,
+          "dice": true
+        },
+        {
+          "type": "traits",
+          "id": "180a29ca4968",
+          "properties": [
+            "regional_effects"
+          ],
+          "heading": "Regional Effects",
+          "conditioned": true,
+          "dice": true
+        }
+      ],
+      "name": "Fireside Folktales Layout",
+      "id": "38d879fb1b58"
+    }
+  ],
+  "default": "38d879fb1b58",
+  "useDice": false,
+  "renderDice": true,
+  "export": true,
+  "showAdvanced": true,
+  "version": {
+    "major": 4,
+    "minor": 10,
+    "patch": 3
+  },
+  "paths": [
+    "/"
+  ],
+  "autoParse": true,
+  "disableSRD": false,
+  "tryToRenderLinks": true,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}
