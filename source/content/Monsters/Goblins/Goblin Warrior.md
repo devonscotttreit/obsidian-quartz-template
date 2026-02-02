@@ -8,15 +8,7 @@ publish: true
 > <div style='text-align: right'>―Gwimbo</div>
 ## Stat Block
 
-```statblock
-
-monster: Goblin Warrior
-
-columns: 2
-
-columnWidth: 325px
-
-```
+![[Goblin Warrior.png]]
 ## Image
 
 ![[goblin.jpg]]
