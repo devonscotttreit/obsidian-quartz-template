@@ -5,6 +5,9 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+env:
+  THEME_NAME: its-theme.ttrpg-wotc
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
@@ -34,6 +37,9 @@ jobs:
       - name: chmod
         run: chmod +x ./quartz/bootstrap-cli.mjs
         working-directory: ./source
+
+      - name: Fetch Quartz Theme
+        run: curl -s -S https://raw.githubusercontent.com/saberzero1/quartz-themes/master/action.sh | bash -s -- $THEME_NAME
 
       - name: Ensure Quartz builds
         run: npx quartz build --bundleInfo
