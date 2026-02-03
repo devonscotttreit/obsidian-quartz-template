@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monsters/Goblins/Goblin Warrior.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Goblin Warrior"
+              "title": "index"
             }
           }
         ]
@@ -174,10 +174,10 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "Monsters/Goblins/Goblin Warrior.md",
     "Resources/Images/Goblin Warrior.png",
     "index.md",
     "Resources/Images/goblin.jpg",
-    "Monsters/Goblins/Goblin Warrior.md",
     "Resources/Images",
     "Resources",
     "index 1.md",
